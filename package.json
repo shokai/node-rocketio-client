@@ -1,0 +1,14 @@
+{
+  "name": "rocketio-client",
+  "version": "0.0.1",
+  "description": "Sinatra::RocketIO Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rocketio"
+  ],
+  "author": "Sho Hashimoto",
+  "license": "MIT"
+}
