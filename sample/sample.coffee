@@ -13,4 +13,4 @@ io.on 'echo', (data)->
 
 process.stdin.setEncoding 'utf8'
 process.stdin.on 'data', (data)->
-  io.push 'hello', data.replace(/[\r\n]/, '')
+  io.push 'hello', data.replace(/[\r\n]/g, '')
