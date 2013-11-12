@@ -1,3 +1,6 @@
+## start server
+## cd ../server && cat README.md
+
 RocketIO = require '../'
 io = new RocketIO()
 io.connect 'http://localhost:5000'
