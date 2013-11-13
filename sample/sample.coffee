@@ -8,6 +8,9 @@ io.connect 'http://localhost:5000'
 io.on 'connect', (io)->
   console.log "connect!! (#{io.type})"
 
+io.on 'disconnect', ->
+  console.log "disconnected.. (#{io.type})"
+
 io.on 'echo', (data)->
   console.log "echo> #{data}"
 
