@@ -1,7 +1,11 @@
+=== 0.0.3 2013-11-14
+
+* implement CometIO  #2
+
 === 0.0.2 2013-11-13
 
 * auto re-connect websocket  #1
 
 === 0.0.1 2013-11-12
 
-* first release
+* first release, implement WebSocketIO
