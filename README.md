@@ -12,8 +12,7 @@ see sample/sample.coffee
 
 ```coffee
 RocketIO = require 'rocketio-client'
-io = new RocketIO()
-io.connect 'http://localhost:5000'
+io = new RocketIO('http://localhost:5000').connect()
 
 io.on 'connect', (io)->
   console.log "connect!! (#{io.type})"
