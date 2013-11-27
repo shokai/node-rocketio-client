@@ -2,12 +2,11 @@ events = require 'events'
 request = require 'request'
 
 class RocketIO extends events.EventEmitter
-  constructor: (url, opts={type: 'websocket'})->
+  constructor: (@url, opts={type: 'websocket'})->
     @type = opts.type
     @config = {}
-    @url = url
 
-  connect: =>
+  connect: ->
     request "#{@url}/rocketio/settings", (err,res,body)=>
       return if err or res.statusCode != 200
       @config = JSON.parse body
