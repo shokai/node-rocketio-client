@@ -1,3 +1,7 @@
+=== 0.0.4 2013-11-28
+
+* modify coffee-script, thank you @geta6
+
 === 0.0.3 2013-11-14
 
 * implement CometIO  #2
