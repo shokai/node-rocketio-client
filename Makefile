@@ -3,5 +3,3 @@ build:
 
 watch:
 	./node_modules/.bin/coffee -w -b -c -o lib src
-
-test: build mocha
